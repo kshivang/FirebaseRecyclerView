@@ -1,6 +1,8 @@
-# FirebaseRecyclerView
+# FirebaseRecyclerView(List DatabaseReference support)
 
-### Implement following recycler view for List of firebase refs in single recycler View
+## Following snippet could be used for senario like if you want to load recycler view from multiple firebase database urls or references or you want to create multiple card(child View) in single recycler view from multiple locations
+
+### Implement following firebase recycler view for List of (firebase) database reference in single recycler View
 
 Make FirebasebaseRecyclerAdapter.kt file as
 ```kotlin
