@@ -6,6 +6,15 @@
 
 Make FirebasebaseRecyclerAdapter.kt file as
 ```kotlin
+import android.support.v7.widget.RecyclerView
+import android.util.Log
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import com.google.firebase.database.*
+import java.lang.reflect.InvocationTargetException
+import java.util.ArrayList
+
 abstract class FirebaseRecyclerAdapter<T, VH : RecyclerView.ViewHolder>
 internal constructor(private val mModelClass: Class<T>,
                      protected var mModelLayout: Int,
